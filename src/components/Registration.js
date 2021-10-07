@@ -42,15 +42,12 @@ const Registration = () => {
   const handleMouseDownPassword = () => setShowPassword(!showCPassword);
   const handleMouseDownCPassword = () => setShowCPassword(!showCPassword);
   const [selectedDate, setSelectedDate] = useState(Date.now());
-  const handleDateChange = (date) => {
-    setSelectedDate(date);
-  };
+
   const classes = useStyles();
   const [success, setSuccess] = useState(false);
   const {
     register,
     handleSubmit,
-    control,
     watch,
     formState: { errors },
   } = useForm();
