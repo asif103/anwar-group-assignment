@@ -7,3 +7,5 @@
 ####React.Js
 ####Material UI
 ####React Hook Form
+####Firebase
+####Netlify
